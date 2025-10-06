@@ -1,0 +1,6 @@
+archivo=open('mi_archivo.txt','w')
+linea=archivo.write('Nuevo texto')
+archivo.close()
+archivo=open('mi_archivo.txt','r')
+leer=archivo.read()
+print(leer)

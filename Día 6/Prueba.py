@@ -1,0 +1,5 @@
+mi_archivo=open('prueba.txt')
+leer=mi_archivo.readline()
+leer=mi_archivo.readline()
+print(leer)
+mi_archivo.close()
